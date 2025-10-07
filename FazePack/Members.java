@@ -75,24 +75,24 @@ public class Members {
         if(choice.equals("jason")) {
             System.out.println(JTW());
         }
-        if(choice.equals("ada")) {
+        else if(choice.equals("ada")) {
             System.out.println(ADA());
         }
-        if(choice.equals("ron")) {
+        else if(choice.equals("ron")) {
             System.out.println(Ron());
         }
-        if(choice.equals("lacy")) {
+        else if(choice.equals("lacy")) {
             System.out.println(thugs());
         }
-        if(choice.equals("kaysan")) {
+        else if(choice.equals("kaysan")) {
             System.out.println(kaysan());
         }
-        if(choice.equals("silky")) {
+        else if(choice.equals("silky")) {
             System.out.println(silk());
         }
-        if(choice.equals("qt")) {
+        else if(choice.equals("qt")) {
             System.out.println(qt());
-        } else if(choice.equals(null)){
+        } else {
             System.out.println("Why didn't you pick something correctly");
         }
     }
