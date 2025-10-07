@@ -6,7 +6,9 @@ public class Members {
     private String name;
     private int age;
     private int peakSubCount;
+
     Scanner scan = new Scanner(System.in);
+
     public Members() {
         name = "unknown";
         age = 0;
@@ -23,49 +25,49 @@ public class Members {
         name = "Jason Tha Ngyuen";
         age = 22;
         peakSubCount = 100000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public String ADA() {
         name = "FaZe Adapt";
         age = 1300;
         peakSubCount = 50000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
     
     public String Ron() {
         name = "StableRonaldo";
         age = 23;
         peakSubCount = 70000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public String thugs() {
         name = "FaZe Lacy";
         age = 21;
         peakSubCount = 67000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public String kaysan() {
         name = "FaZe Kaysan";
-        age = 10515152379485;
+        age = 205062;
         peakSubCount = 20000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public String silk() {
         name = "FaZe Silky";
         age = 27;
         peakSubCount = 45000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public String qt() {
         name = "QTCinderella";
         age = 35;
         peakSubCount = 15000;
-        return name + " " + age + " ~" + peakSubCount;
+        return "Name: " +name + "\nAge: " + age + "\nApproximate Peak Sub Count: ~" + peakSubCount;
     }
 
     public void picker() {
@@ -90,7 +92,7 @@ public class Members {
         }
         if(choice.equals("qt")) {
             System.out.println(qt());
-        } else {
+        } else if(choice.equals(null)){
             System.out.println("Why didn't you pick something correctly");
         }
     }
